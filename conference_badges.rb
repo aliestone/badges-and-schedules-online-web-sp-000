@@ -5,13 +5,11 @@ def badge_maker(name)
 end
 
 def assign_rooms (name, )
-  return 
-  
+  return
+
 
 
 def batch_badge_creator (array)
   array = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   return "Hello,#{array}! You'll be assigned to room #{room_assignments}!"
 end 
-
-  
