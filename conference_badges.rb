@@ -17,5 +17,5 @@ end
 def batch_badge_creator(name)
   guests.collect do |name|
   end
-  badge_maker(name)
+    badge_maker(name)
 end
