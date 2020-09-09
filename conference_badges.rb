@@ -15,7 +15,6 @@ def assign_rooms(attendees)
 end
 
 def batch_badge_creator(name)
-  guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   guests.collect do |name|
   end
   badge_maker(name)
