@@ -5,6 +5,7 @@ def badge_maker(name)
 end
 
 def assign_rooms (name, room)
+  return "Hello,#{name}! You'll be assigned to room #{room_assignments}!"
 end
 
 
