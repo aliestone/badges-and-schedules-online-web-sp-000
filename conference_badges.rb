@@ -1,7 +1,5 @@
 # Write your code here.
 
-guests = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -20,8 +18,8 @@ def batch_badge_creator(guests)
   end
 end
 
-def printer(attendees)
-  batch_badge_creator(attendees).each do |value|
+def printer(guests)
+  batch_badge_creator(guests).each do |value|
     puts value
   end
   assign_rooms(attendees).each do |value|
