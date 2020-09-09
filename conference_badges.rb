@@ -7,7 +7,7 @@ def badge_maker(name)
 end
 
 def assign_rooms(guestrooms)
-  array = []
+  array=[]
   names.each_with_index {|name, index|
   array.push "Hello, #{name}! You'll be assigned to room #{index + 1}!" }
 end
