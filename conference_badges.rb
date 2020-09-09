@@ -6,7 +6,7 @@ end
 
 def assign_rooms (name, room_assignments)
   names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  names.each_with_index { |name, room_assignments| puts "Hello, #{names}! You'll be assigned to room #{room_assignments}!" }
+  names.each_with_index { |name, room_assignments| puts "Hello, #{names}! You'll be assigned to room #{room_assignments + 1}!" }
 end
 
 
